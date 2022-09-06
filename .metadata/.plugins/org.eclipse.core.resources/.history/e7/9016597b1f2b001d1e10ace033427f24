@@ -1,0 +1,13 @@
+package br.com.residencia.poo.exercicios;
+
+public class TesteCastings {
+
+	public static void main(String[] args) {
+		char caracter = 'D';
+		char caracterb = 'Z';
+		int soma = caracter + caracterb;
+		System.out.println("O valor de i é " + soma);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package br.com.residencia.poo.exercicios;
+
+import java.util.Scanner;
+
+public class PrimeiraAula {
+	String nome;
+
+	public static void main(String[] args) {
+		System.out.println("Diga seu nome: ");
+		Scanner sc= new Scanner(System.in);
+		nome= sc.nextLine();
+		
+	}	
+}

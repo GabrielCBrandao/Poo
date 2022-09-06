@@ -1,0 +1,16 @@
+package br.com.residencia.poo.exercicios;
+
+import java.util.Scanner;
+
+public class PrimeiraAula2{
+	int numero;
+	
+	private void publ() {
+		System.out.println("Digite o tamanho da árvore: ");
+		Scanner numero= new Scanner(System.in);
+	}
+
+		
+
+	}
+	

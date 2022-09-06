@@ -1,0 +1,57 @@
+package br.com.residencia.poo.exercicios;
+
+import java.util.Scanner;
+
+public class PrimeiraAula {
+	Scanner sc= new Scanner(System.in);
+	String nome;
+	
+
+	public static void main(String[] args) {
+		/*Scanner ler= new Scanner(System.in);
+		
+		String nome, disciplina;
+		int idade;
+
+		System.out.println("Diga seu nome: ");
+		nome = ler.nextLine();
+		System.out.println("Olá,"+nome);
+		
+		System.out.println("Diga sua idade: ");
+		idade = ler.nextInt();
+		System.out.println("você tem "+ idade);
+		ler.close();*/
+		
+//		BigDecimal nota2, totalNotas2, media2;
+		Scanner ler= new Scanner(System.in);
+		String nome, disciplina;
+		int idade;
+		float nota, totalNotas= 0.0f, media;
+		double nota1, totalNotas1=0.0, media1;
+		
+		System.out.println("Diga seu nome: ");
+		nome = ler.nextLine();
+		System.out.println("Olá,"+nome);
+		
+		System.out.println("Diga sua Disciplina: ");
+		disciplina = ler.nextLine();
+		for(int cont = 1; cont <= 3; cont++) {
+			System.out.println("Insira a nota " + cont + ": ");
+			nota1 = ler.nextDouble();
+			totalNotas += nota1;
+		}
+		
+		media = totalNotas/3;
+		System.out.println("Olá, " + nome);
+		System.out.println("Na disciplina " + disciplina + " a média é " + media);
+		
+		ler.close();
+		
+		
+		
+	}	
+	
+	
+
+	}
+

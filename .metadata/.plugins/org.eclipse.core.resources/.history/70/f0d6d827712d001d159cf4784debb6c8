@@ -1,0 +1,35 @@
+package br.com.residencia.poo.exercicios;
+
+import java.util.Scanner;
+
+public class Pinheiro {
+	
+
+	
+
+	
+
+		public static void main(String[] args) {
+			int tamanhoArvore;
+			System.out.print("Digite o tamanho da árvore: ");
+			Scanner ar= new Scanner(System.in);
+			tamanhoArvore=ar .nextInt();
+		    String j ="*";
+			for(int i=-(tamanhoArvore); i=0; i<=tamanhoArvore; i++){
+				
+		                    System.out.println(j);
+		                    j+="*";
+		                   
+			
+			}
+			for(int i=0; i<=-tamanhoArvore; i++){
+				
+                System.out.println(j);
+                j+="*";
+			}
+               
+		}
+		
+	}
+
+

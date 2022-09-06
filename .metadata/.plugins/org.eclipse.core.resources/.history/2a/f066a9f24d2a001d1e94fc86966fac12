@@ -1,0 +1,159 @@
+package br.com.residencia.poo.exercicios;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class PrimeiraAula {
+	Scanner sc= new Scanner(System.in);
+	String nome;
+	
+
+	public static void main(String[] args) {
+		/*Scanner ler= new Scanner(System.in);
+		
+		String nome, disciplina;
+		int idade;
+
+		System.out.println("Diga seu nome: ");
+		nome = ler.nextLine();
+		System.out.println("Olá,"+nome);
+		
+		System.out.println("Diga sua idade: ");
+		idade = ler.nextInt();
+		System.out.println("você tem "+ idade);
+		ler.close();*/
+		
+//		BigDecimal nota2, totalNotas2, media2;
+		/* ler= new Scanner(System.in);
+		String nome, disciplina;
+		int idade;
+		float nota, totalNotas= 0.0f, media;
+		double nota1, totalNotas1=0.0, media1;
+		
+		System.out.println("Diga seu nome: ");
+		nome = ler.nextLine();
+		System.out.println("Olá,"+nome);
+		
+		System.out.println("Diga sua Disciplina: ");
+		disciplina = ler.nextLine();
+		for(int cont = 1; cont <= 3; cont++) {
+			System.out.println("Insira a nota " + cont + ": ");
+			nota1 = ler.nextDouble();
+			totalNotas += nota1;
+		}
+		
+		media = totalNotas/3;
+		System.out.println("Olá, " + nome);
+		System.out.println("Na disciplina " + disciplina + " a média é " + media);
+		
+		ler.close();*/
+		//EXERCICIO4
+		/*int celsius, farenheit;
+		System.out.println("Escreva uma temperatura em Celsius");
+		Scanner temp= new Scanner(System.in);
+		celsius= temp.nextInt();
+		farenheit=(int) (celsius*1.8+32);
+		System.out.println("A temperatura informada é de "+ farenheit+"F");
+		temp.close();*/
+		
+		//EXERCICIO5
+		/*A
+		int numero, n1,n2,n3,n4,n5,n6,n7,n8,n9, expressao;
+		
+		
+		System.out.println("Bem vindo ao app Riuju");
+		System.out.println("Digite o primeiro número da expressão");
+		Scanner num= new Scanner(System.in);
+		n1= num.nextInt();
+		System.out.println("Digite o segundo número da expressão");
+		
+		n2= num.nextInt();
+		System.out.println("Digite o terceiro número da expressão");
+		
+		n3= num.nextInt();
+		System.out.println("Digite o quarto número da expressão");
+		
+		n4= num.nextInt();
+		System.out.println("Digite o quinto número da expressão");
+		
+		n5= num.nextInt();
+		System.out.println("Digite o sexto número da expressão");
+		
+		n6= num.nextInt();
+		System.out.println("Digite o sétimo número da expressão");
+		
+		n7= num.nextInt();
+		System.out.println("Digite o oitavo número da expressão");
+		
+		n8= num.nextInt();
+		System.out.println("Digite o nono número da expressão");
+		
+		n9= num.nextInt();
+		
+		expressao= n1+n2-(n3*n4)-n5+n6-n7+(n8*n9);
+		
+		System.out.println("O resultado da expressão é: "+expressao);
+		num.close()*/
+		
+		//B
+		
+		/*int numero, n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12, expressao;
+		
+		
+		System.out.println("Bem vindo ao app Riuju");
+		System.out.println("Digite o primeiro número da expressão");
+		Scanner num= new Scanner(System.in);
+		n1= num.nextInt();
+		System.out.println("Digite o segundo número da expressão");
+		
+		n2= num.nextInt();
+		System.out.println("Digite o terceiro número da expressão");
+		
+		n3= num.nextInt();
+		System.out.println("Digite o quarto número da expressão");
+		
+		n4= num.nextInt();
+		System.out.println("Digite o quinto número da expressão");
+		
+		n5= num.nextInt();
+		System.out.println("Digite o sexto número da expressão");
+		
+		n6= num.nextInt();
+		System.out.println("Digite o sétimo número da expressão");
+		
+		n7= num.nextInt();
+		System.out.println("Digite o oitavo número da expressão");
+		
+		n8= num.nextInt();
+		System.out.println("Digite o nono número da expressão");
+		
+		n9= num.nextInt();
+		System.out.println("Digite o décimo número da expressão");
+		
+		n10= num.nextInt();
+		System.out.println("Digite o décimo primeiro número da expressão");
+		
+		n11= num.nextInt();
+		System.out.println("Digite o décimo segundo número da expressão");
+		
+		n12= num.nextInt();
+		
+		expressao=n1+n2*(n3-n4)+n5*n6*n7+n8-(n9+n10+n11)*n12;
+		
+		System.out.println("O resultado da expressão é: "+expressao);
+		num.close()*/
+		
+		
+		for(int cont=1; cont<=10; cont++) {
+			System.out.println("*");
+		}
+		
+		
+		
+		
+	}	
+	
+	
+
+	}
+

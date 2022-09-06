@@ -1,0 +1,11 @@
+package br.com.residencia.poo.exercicios;
+
+public class Pinheiro {
+
+	public static void main(String[] args) {
+		for(int cont = 1; cont <= 6; cont++){
+        	System.out.println("Diga a  idade"+cont+":");
+
+	}
+
+}
