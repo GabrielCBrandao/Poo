@@ -211,7 +211,7 @@ public class PrimeiraAula {
 		//Exercicio do erro
 		
 		
-		ler= new Scanner(System.in);
+		/*ler= new Scanner(System.in);
 		String nome, disciplina;
 		int idade;
 		float nota, totalNotas= 0.0f media;
@@ -230,13 +230,13 @@ public class PrimeiraAula {
 		}
 		
 		media = totalNotas/3;
-		System.out.println("Olá, "  nome);
-		System.out.println("Na disciplina " + disciplina  " a média é " + media);
+		System.out.println("Olá, " + nome);
+		System.out.println("Na disciplina " + disciplina  " a média é" + media);
 		
 		
 		
 		
-		
+		*/
 		}
 		
 		
